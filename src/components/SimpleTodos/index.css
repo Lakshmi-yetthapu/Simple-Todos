@@ -25,3 +25,87 @@
 .todos-list li {
   margin-bottom: 10px;
 }
+
+.app-container {
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.heading {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+input[type='text'] {
+  margin-right: 10px;
+  padding: 5px;
+}
+
+button {
+  margin-left: 10px;
+  padding: 5px 10px;
+}
+
+.todos-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.todo-title {
+  flex: 1;
+}
+
+button {
+  background-color: #f0ad4e;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+button:hover {
+  background-color: #e09c40;
+}
+
+button:focus {
+  outline: none;
+}
+/* index.css */
+
+.todo-item.completed .todo-title {
+  text-decoration: line-through;
+}
+
+.todo-checkbox {
+  margin-right: 10px;
+}
+
+.todo-title {
+  display: inline;
+}
+
+.todo-edit-input {
+  display: inline;
+}
+
+.todo-item {
+  list-style: none;
+  margin: 10px 0;
+}
+
+.delete-button,
+.edit-button {
+  margin-left: 10px;
+}
+
+button {
+  cursor: pointer;
+}
